@@ -114,17 +114,17 @@ void clignoteLed(unsigned int wait)
 {
   for (unsigned int i = 0 ; i < 5 ; i++ )
   {
-    digitalWrite(PIN_LED_B, LOW);
-    delay(wait);
     digitalWrite(PIN_LED_B, HIGH);
+    delay(wait);
+    digitalWrite(PIN_LED_B, LOW);
     delay(wait);
   }
 
   for (unsigned int i = 0 ; i < 5 ; i++ )
   {
-    digitalWrite(PIN_LED_B, LOW);
-    delay(wait * 4);
     digitalWrite(PIN_LED_B, HIGH);
+    delay(wait * 4);
+    digitalWrite(PIN_LED_B, LOW);
     delay(wait * 4);
   }
 }
@@ -317,6 +317,8 @@ void loop()
       // raz la couleur de la led en fin de cycle
 #if LED_RGB == true
       displayColor(COLOR_BLACK, 0);
+#else
+      digitalWrite(PIN_LED_B, LOW);
 #endif
     }
   }
