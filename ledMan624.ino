@@ -33,7 +33,7 @@ const byte MULTIPLE = 8;
 
 // VARIABLES DU MODE 6H sur 24
 // nombre de dodo en 24h : 10800 (24 x 60 x 60 / 8)
-const unsigned int T24H = 10800;
+const unsigned int T24H = 24 * 60 * 60 / MULTIPLE;
 // nombre de dodo en 6h : 2700
 const unsigned int T6H = T24H / 4;
 // compteur qui atteindra 10800
