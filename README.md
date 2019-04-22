@@ -1,6 +1,6 @@
 # ledMan
 
-Par Matthieu ONFRAY (http://www.onfray.info)  
+Par Matthieu ONFRAY  
 Licence : CC by sa
 
 ledMan est un projet arduino de contrôle de LED, au choix mono ou RGB.
