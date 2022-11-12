@@ -1,7 +1,6 @@
 # ledMan
 
-Par Matthieu ONFRAY  
-Licence : CC by sa
+
 
 ledMan est un projet arduino de contrôle de LED, au choix mono ou RGB.
 2 effets aléatoire pour la mono, 4 pour la RGB.
