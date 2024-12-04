@@ -2,8 +2,7 @@
 
 ![IronLedMan](https://github.com/matonf/ledMan/blob/master/IMG_4152.JPEG)
 
-ledMan est un projet arduino de contrôle de LED, au choix mono ou RGB.
-2 effets aléatoire pour la mono, 4 pour la RGB.
+ledMan est un projet arduino de contrôle de LED, au choix mono ou RGB, avec 2 effets aléatoires pour la LED mono, 4 pour la RGB.
 
 En mode proto, les effets sont rapprochés et s'exécutent rapidement, sinon ils sont plus distants en minutes et plus longs à s'afficher.
 
@@ -11,4 +10,4 @@ La particularité est que la puce s'endort entre ces cycles d'effets lumineux, n
 
 Le fichier ledMan624 effectue globalement les même effets lumineux (ajout d'un nouvel effet pour la led monochome), sa particularité est surtout de faire fonctionner la LED 6 heures, puis rien pendant 18h, puis reprise. Ainsi elle ne peut s'allumer que pour des cycles de 6 heures, ce qui économise la pile de 3V. A démarrer le soir pour profiter de l'illumination...
 
-La carte utilisée est de type esp82
+La carte utilisée est de type ESP32.
